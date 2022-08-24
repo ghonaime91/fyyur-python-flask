@@ -25,9 +25,13 @@ source env/Scripts/activate
 
 2. **Run the development server:**
 ```
-export FLASK_APP=myapp
+export FLASK_APP=run.py
 export FLASK_ENV=development # enables debug mode
-python3 app.py
+flask run
+'''
+or just run:
+'''
+python run.py
 ```
 
 3. **Verify on the Browser**<br>
