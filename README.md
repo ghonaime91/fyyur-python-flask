@@ -24,15 +24,17 @@ source env/Scripts/activate
 ```
 
 2. **Run the development server:**
-```
-export FLASK_APP=run.py
-export FLASK_ENV=development # enables debug mode
-flask run
-'''
+
+`export FLASK_APP=run.py`
+then:
+`export FLASK_ENV=development` # enables debug mode
+then:
+`flask run`
+
 or just run:
-'''
-python run.py
-```
+
+`python run.py`
+
 
 3. **Verify on the Browser**<br>
 Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
