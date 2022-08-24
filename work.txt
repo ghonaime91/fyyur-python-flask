@@ -1,0 +1,4 @@
+1- Started working on create_venue_submission() : finish
+2- Started working on create_artist_submission() : finish
+3- Started working on create_show_submission() : finish
+4- Started working on venue() : finish
