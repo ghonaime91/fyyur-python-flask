@@ -10,13 +10,13 @@ full crud system for venues and artists and shows .
 
 1. **Initialize and activate a virtualenv and flask migrate using:**
 
-first create a database called fyyur in your postgres version
-then run command : `python -m virtualenv env`
-then run command :`source env/bin/activate`
-then run command :`pip install -r requirements.txt` to Install the dependencies
-then run command :`flask db init`
-then :`flask db migrate`
-then  :`flask db upgrade` to create the tables in database.
+* first create a database called fyyur in your postgres version
+* then run command : `python -m virtualenv env`
+* then run command :`source env/bin/activate`
+* then run command :`pip install -r requirements.txt` to Install the dependencies
+* then run command :`flask db init`
+* then :`flask db migrate`
+* then  :`flask db upgrade` to create the tables in database.
 
 >**Note** - In Windows, the `env` does not have a `bin` directory. Therefore, you'd use the analogous command shown below:
 ```
